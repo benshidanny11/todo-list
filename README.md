@@ -3,17 +3,20 @@
 > This is a web app that helps user to manage daily activities.
 
 ## Features
-- Home page
-- About page
+- Adding a new item.
+- Removing a selected item.
+- Marking a selected item as complete.
+- Removing all items marked as complete at once.
+- Reordering a selected item (as drag-and-drop) [as an additional feature].
 
 ## Built With
 - Html
 - CSS
-- Bootstrap
+- Javascript
 
 ## Live demo
 
-[Click here to visit](https://benshidanny11.github.io/consert_page/)
+[Click here to visit](https://benshidanny11.github.io/todo-list/)
 
 
 ## Getting Started
@@ -23,6 +26,8 @@ To get a local copy up and running follow these simple example steps.
 - Clone the project
 
 - Navigate to project folder
+
+- RUn npm start
 
 - Right click to index.html file and choose open with chrome.
 
@@ -38,5 +43,5 @@ To get a local copy up and running follow these simple example steps.
 
 ## Acknowledgments
 
-- [@KDlamin](https://github.com/KDlamini)
-- [@Cindy Shin](https://www.behance.net/adagio07) the author of the [originer design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- [Microverse](https://www.microverse.org/)
+- [minimalist](https://web.archive.org/web/20180320194056/http://www.getminimalist.com:80/)
