@@ -18,16 +18,25 @@
 
 [Click here to visit](https://benshidanny11.github.io/todo-list/)
 
+## Prerequisites
+
+- Node js 10+
+- NPM 6+
+
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-- Clone the project
+- Clone the project.
 
-- Navigate to project folder
+- Navigate to project folder.
 
-- RUn npm start
+- Run npm install.
+
+- Run npm start.
+
+- Navigate to dist folder.
 
 - Right click to index.html file and choose open with chrome.
 
