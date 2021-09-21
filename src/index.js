@@ -28,6 +28,7 @@ window.addEventListener('load', () => {
       moreIcon.setAttribute('heigt', '10');
       checkBox.setAttribute('type', 'checkbox');
       checkBox.checked = todo.isComplete;
+      itemContent.style.textDecoration = todo.isComplete ? 'line-through' : 'none';
       // checkBox.setAttribute('checked', ``);
       checkBox.addEventListener('change', () => {
         const isComplete = checkTodo(todo.isComplete);
