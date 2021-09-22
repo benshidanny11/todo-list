@@ -11,7 +11,6 @@ export const addTodo = (description) => {
 };
 
 export const deleteTodo = (index) => {
-  console.log(index);
   const remainingTodos = todos.filter((todo) => todo.index !== index);
   if (remainingTodos.length > 0) {
     remainingTodos.forEach((todo, index) => {
