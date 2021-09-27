@@ -16,7 +16,7 @@
 
 ## Live demo
 
-[Click here to visit](https://benshidanny11.github.io/todo-list/)
+[Click here to visit](https://benshidanny11.github.io/todo-list/dist/index.html)
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Daniel Urimubenshi**
 
-- GitHub: [@benshidanny11](https://github.com/benshidanny11/dist/index.html)
+- GitHub: [@benshidanny11](https://github.com/benshidanny11)
 
 ## 🤝 Contributors
 
