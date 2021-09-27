@@ -75,4 +75,4 @@ pBottom.addEventListener('click', clearAllComplele);
 
 setTimeout(() => {
   myWrapper.appendChild(listItemBottom);
-}, 200);
+}, 1000);

@@ -1,7 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-const todos = JSON.parse(localStorage.getItem('todos'))
-  ? JSON.parse(localStorage.getItem('todos'))
-  : [];
+const todos = JSON.parse(localStorage.getItem('todos')) || [];
 export const addTodo = (description) => {
   const index = todos && todos.length > 0 ? todos.length + 1 : 1;
   const todo = { description, index, completed: false };
