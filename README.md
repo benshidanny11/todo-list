@@ -44,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Daniel Urimubenshi**
 
-- GitHub: [@benshidanny11](https://github.com/benshidanny11)
+- GitHub: [@benshidanny11](https://github.com/benshidanny11/dist/index.html)
 
 ## 🤝 Contributors
 
