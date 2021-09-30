@@ -40,6 +40,18 @@ To get a local copy up and running follow these simple example steps.
 
 - Right click to index.html file and choose open with chrome.
 
+## Testing
+
+To get a local copy up and running follow these simple example steps.
+
+- Clone the project.
+
+- Navigate to project folder.
+
+- Run npm install.
+
+- Run npm test.
+
 ## Authors
 
 👤 **Daniel Urimubenshi**
@@ -49,6 +61,7 @@ To get a local copy up and running follow these simple example steps.
 ## 🤝 Contributors
 
 - [@benshidanny11](https://github.com/benshidanny11)
+- [@fancis](https://github.com/Gambit142)
 
 ## Acknowledgments
 

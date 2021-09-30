@@ -1,8 +1,8 @@
-/* eslint-disable import/prefer-default-export */ import { localStorage } from "./localStorage.js";
+/* eslint-disable import/prefer-default-export */ import { localStorage } from './localStorage.js';
+
 export const addTodo = () => {
-  const todoDesc = document.getElementById("todo-input").value;
-  const index =
-    localStorage.items.length > 0 ? localStorage.items.length + 1 : 1;
+  const todoDesc = document.getElementById('todo-input').value;
+  const index = localStorage.items.length > 0 ? localStorage.items.length + 1 : 1;
   const todo = {
     key: index,
     data: { index, descrption: todoDesc, completed: false },
@@ -11,7 +11,7 @@ export const addTodo = () => {
 };
 export const removeToDo = (index) => {
   const newItems = localStorage.items.filter(
-    (item) => item.data.index !== index
+    (item) => item.data.index !== index,
   );
   localStorage.items = newItems;
 };
