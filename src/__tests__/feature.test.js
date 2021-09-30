@@ -18,10 +18,10 @@ describe("Test to do list add and remove features", () => {
     expect(localStorage.items.length).toBe(2);
     expect(localStorage.getItem(1).data.descrption).toBe("Go to gym");
   });
+  test("Should remove todo item from local storage ", () => {
+    removeToDo(1);
+    expect(localStorage.items.length).toBe(1);
+    expect(localStorage.getItem(1).completed).toBeFalsy();
+  });
 });
 
-test("Should remove todo item from local storage ", () => {
-  removeToDo(1);
-  expect(localStorage.items.length).toBe(1);
-  expect(localStorage.getItem(1).completed).toBeFalsy();
-});
