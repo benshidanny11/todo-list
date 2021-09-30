@@ -2,13 +2,20 @@ import './style/main.css';
 import deleteImage from './img/delete.svg';
 
 import {
-  addTodo, deleteTodo, clearAllComplele, checkTodo, updateDescription, refreshPage,
+  addTodo,
+  deleteTodo,
+  clearAllComplele,
+  checkTodo,
+  updateDescription,
+  refreshPage,
 } from './utils.js';
 
 const myWrapper = document.getElementById('list-wrapper');
 const todoInput = document.getElementById('todo-input');
 
-document.getElementById('refresh').addEventListener('click', () => refreshPage());
+document
+  .getElementById('refresh')
+  .addEventListener('click', () => refreshPage());
 
 todoInput.addEventListener('keyup', (e) => {
   if (e.key === 'Enter') {
@@ -62,17 +69,17 @@ window.addEventListener('load', () => {
     listItem.appendChild(moreIcon);
     myWrapper.append(listItem);
   });
-});
 
-const listItemBottom = document.createElement('li');
-listItemBottom.classList.add(...['list-item', 'item-bottom']);
-const pBottom = document.createElement('p');
-pBottom.classList.add('p-bottom');
-pBottom.innerHTML = 'Clear all completed';
-listItemBottom.appendChild(pBottom);
+  const listItemBottom = document.createElement('li');
+  listItemBottom.classList.add(...['list-item', 'item-bottom']);
+  const pBottom = document.createElement('p');
+  pBottom.classList.add('p-bottom');
+  pBottom.innerHTML = 'Clear all completed';
+  listItemBottom.appendChild(pBottom);
 
-pBottom.addEventListener('click', clearAllComplele);
-
-setTimeout(() => {
+  pBottom.addEventListener('click', clearAllComplele);
   myWrapper.appendChild(listItemBottom);
-}, 1000);
+});
+// setTimeout(() => {
+//   myWrapper.appendChild(listItemBottom);
+// }, 1000);
