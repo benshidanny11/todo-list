@@ -24,3 +24,10 @@ export const editToDo = (description, index) => {
   const todoDesc = document.getElementById('todo-input');
   todoDesc.value = description;
 };
+
+export const updateStatus = (index) => {
+  const todo = localStorage.items.filter(
+    (item) => item.data.index === index,
+  )[0];
+  todo.data.completed = true;
+};
