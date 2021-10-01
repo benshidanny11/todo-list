@@ -31,3 +31,10 @@ export const updateStatus = (index) => {
   )[0];
   todo.data.completed = true;
 };
+
+export const deleteCompleted = () => {
+  const newItems = localStorage.items.filter(
+    (item) => item.data.completed !== true,
+  );
+  localStorage.items = newItems;
+};
