@@ -15,3 +15,12 @@ export const removeToDo = (index) => {
   );
   localStorage.items = newItems;
 };
+
+export const editToDo = (description, index) => {
+  const todo = localStorage.items.filter(
+    (item) => item.data.index === index,
+  )[0];
+  todo.data.descrption = description;
+  const todoDesc = document.getElementById('todo-input');
+  todoDesc.value = description;
+};
