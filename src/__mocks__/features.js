@@ -1,4 +1,5 @@
-/* eslint-disable import/prefer-default-export */ import { localStorage } from './localStorage.js';
+/* eslint-disable import/prefer-default-export */
+import { localStorage } from './localStorage.js';
 
 export const addTodo = () => {
   const todoDesc = document.getElementById('todo-input').value;
